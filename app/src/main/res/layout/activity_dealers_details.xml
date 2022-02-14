@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F8FF"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".MainActivityDrivers.DealersDetails">
+
+    <include
+        layout="@layout/custom_progressbar"
+        android:id="@+id/single_progress"
+        android:visibility="gone"
+        >
+
+    </include>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:src="@drawable/download"
+        >
+
+    </ImageView>
+
+
+    <TextView
+        android:id="@+id/single_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name: Tejas Mesta"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        >
+
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/single_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mobile Number: 7058474692"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/single_emailid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email id: tejasmesta@gmail.com"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/single_nature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nature of material: Fragile"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/single_weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weight of material: 100"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/single_qty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quantity: 1000"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        >
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <Button
+            android:layout_margin="8dp"
+            android:id="@+id/call_dealer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Call dealer📲 "
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:backgroundTint="#808000"
+            >
+
+        </Button>
+
+        <Button
+            android:layout_margin="5dp"
+            android:id="@+id/mail_dealer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mail dealer📧"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:backgroundTint="#9ACD32"
+            >
+
+        </Button>
+
+    </LinearLayout>
+
+
+</LinearLayout>

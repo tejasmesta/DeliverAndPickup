@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.drivemypackage">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DriveMyPackage">
+        <activity
+            android:name=".MainActivityDrivers.DealersDetails"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityDealers.MyBookings"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityDealers.DriverDetails"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityDealers.DriversListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityDrivers.DriversMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityDealers.DealerMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Login.loginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".signup.SignUpAsDriver"
+            android:exported="true" />
+        <activity
+            android:name=".signup.SignUpAsDealer"
+            android:exported="true" />
+        <activity
+            android:name=".signup.SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

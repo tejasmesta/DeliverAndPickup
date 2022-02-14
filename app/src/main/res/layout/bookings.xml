@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#F0F8FF"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_marginLeft="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/bookings_list_username"
+            android:text="Username"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/bookings_list_from"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:text="From"
+                android:textColor="@color/black"
+                android:textSize="20sp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/bookings_list_sign"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginBottom="3dp"
+                android:text="-->"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/bookings_list_to"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_marginLeft="5dp"
+                android:text="To"
+                android:textColor="@color/black"
+                android:textSize="20sp">
+
+            </TextView>
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bookings_list_more_deets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_marginLeft="5dp"
+            android:minHeight="0dp"
+            android:backgroundTint="#708090"
+            android:text="More Details➡"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20sp">
+
+        </Button>
+
+    </LinearLayout>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#696969"
+        >
+
+    </View>
+
+</LinearLayout>
+

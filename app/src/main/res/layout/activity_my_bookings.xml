@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F0F8FF"
+    tools:context=".MainActivityDealers.MyBookings">
+
+    <include
+        layout="@layout/custom_progressbar"
+        android:id="@+id/drivers_list_progress"
+        android:visibility="gone"
+        >
+
+    </include>
+
+    <TextView
+        android:id="@+id/no_bookings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No bookings"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:visibility="gone"
+        >
+
+    </TextView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/bookings_list_recycler_view">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+</LinearLayout>
